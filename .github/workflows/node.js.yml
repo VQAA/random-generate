@@ -43,5 +43,5 @@ jobs:
         script:  |
           cd ~/app/bwa-cicd-demo
           git pull origin master
-          npm install
-          pm2 restart 0
+          sudo npm install
+          sudo pm2 restart 0
